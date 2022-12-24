@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User SignUp</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header style="display: flex; flex-direction: row; justify-content: space-between; ">
+        <h1 >Header</h1>
+
+            <div style="display: flex; flex-direction: row;;">
+                <h1 > <a href="index.html"> SignUp</a></h1>  &nbsp; &nbsp; &nbsp; 
+                <h1 > <a href="profile.html"> Profile </a></h1>
+            </div>
+
+    </header>
+    <hr>
+
+
+    <section id="indexPageScection">
+        <h1>SignUp</h1>
+        
+        <div id="formSection">
+        <form action="" method="post">
+
+            <textarea class="input" id="name" cols="100" rows="1" placeholder="Full name" required></textarea>
+            <hr>
+            <textarea class="input" id="email" cols="100" rows="1" placeholder="email" required></textarea>
+            <hr>
+            <textarea class="input" id="password" cols="100" rows="1" placeholder="password" required></textarea>
+            <hr>
+            <textarea class="input" id="comfirm" cols="100" rows="1" placeholder="confirm password" required></textarea>
+            <hr>
+
+        </form>
+        </div>
+
+        <br>
+        <br>
+
+        <button id="signup">SignUp</button>
+        <br>
+        <br>
+        <div id="loginmsg"></div>
+    </section>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+textarea{
+    background-color: black;
+    border: none;
+    color: white;
+}
+
+textarea:focus{
+    background-color: black;
+    border: none;
+    outline: none;
+}
+
+#formSection{
+    width: 50vw;
+}
+
+button{
+    padding: 0.5rem 2.5rem;
+    border: 0.2rem solid blueviolet;
+}
+
+#indexPageScection{
+
+    margin: 7% 20%;
+}
